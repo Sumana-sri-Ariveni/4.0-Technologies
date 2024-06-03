@@ -1,0 +1,36 @@
+.card-con {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for visual enhancement */
+}
+
+li {
+  list-style: none;
+  width: 45%; /* Set the width of each list item to 45% to display two cards per row */
+}
+
+.card-head {
+  color: #171f46;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.card-desc {
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.card-img {
+  height: 60px;
+  width: 60px;
+  align-self: flex-end;
+  float : right;
+}
